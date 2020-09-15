@@ -41,15 +41,25 @@ class TreeNode(object):
 ###############################################################
 
 class Solution(object):
-    def runningSum(self, nums):
-        for i in range(1,len(nums)):
-            nums[i]=nums[i-1]+nums[i]
-        return nums
+    def kidsWithCandies1(self, candies , extraCandies ) :
+        sort_candies=sorted(candies)
+        ans=list()
+        for i in range(len(candies)):
+            if candies[i]+extraCandies>=sort_candies[-1]:
+                ans.append(bool(1))
+            else:
+                ans.append(bool(0))
+        return ans
 
+    def kidsWithCandies2(self, candies , extraCandies ) :
+        maxCandies = max(candies)
+        ret = [candy + extraCandies >= maxCandies for candy in candies]
+        return ret
 
 def main():
-    nums = [1,1,1,1,1]
-    solution=Solution().runningSum(nums)
+    candies = [2, 3, 5, 1, 3]
+    extraCandies = 3
+    solution=Solution().kidsWithCandies1(candies,extraCandies)
     print(solution)
 
 
