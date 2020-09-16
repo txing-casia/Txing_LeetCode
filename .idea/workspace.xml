@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe3bd8f0-3e51-44a2-a018-f6f1f9d0e07f" name="Default Changelist" comment="Q1561">
-      <change beforePath="$PROJECT_DIR$/Q1480.py" beforeDir="false" afterPath="$PROJECT_DIR$/Q1480.py" afterDir="false" />
-    </list>
+    <list default="true" id="fe3bd8f0-3e51-44a2-a018-f6f1f9d0e07f" name="Default Changelist" comment="Q1561" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,9 @@
     <SUITE FILE_PATH="coverage/Txing_LeetCode$JZOffer20.coverage" NAME="JZOffer20 Coverage Results" MODIFIED="1599009501917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Txing_LeetCode$Q39.coverage" NAME="Q39 Coverage Results" MODIFIED="1599619712106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Txing_LeetCode$Q40.coverage" NAME="Q40 Coverage Results" MODIFIED="1599744847282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Txing_LeetCode$Q226.coverage" NAME="Q226 Coverage Results" MODIFIED="1600217715803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Txing_LeetCode$Q216.coverage" NAME="Q216 Coverage Results" MODIFIED="1599920059965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Txing_LeetCode$Q1480.coverage" NAME="Q1480 Coverage Results" MODIFIED="1600134240695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Txing_LeetCode$Q1480.coverage" NAME="Q1480 Coverage Results" MODIFIED="1600217563527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Txing_LeetCode$Q4656.coverage" NAME="Q4656 Coverage Results" MODIFIED="1598837550126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Txing_LeetCode$Leetcode.coverage" NAME="Leetcode Coverage Results" MODIFIED="1598837544628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Txing_LeetCode$Q486.coverage" NAME="Q486 Coverage Results" MODIFIED="1598926144467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -32,34 +31,34 @@
     <session id="-1129597674">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.11" value="9" />
+          <entry key="project.open.time.11" value="10" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="29" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="29" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2535" />
+          <entry key="py" value="2611" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2535" />
+          <entry key="Python" value="2611" />
         </counts>
       </usages-collector>
     </session>
@@ -67,12 +66,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Q1480.py">
+        <entry file="file://$PROJECT_DIR$/Q226.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="260">
+              <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <marker date="1600218176117" expanded="true" signature="1122:1340" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,6 +113,7 @@
         <option value="$PROJECT_DIR$/Q216.py" />
         <option value="$PROJECT_DIR$/Q637.py" />
         <option value="$PROJECT_DIR$/Q1480.py" />
+        <option value="$PROJECT_DIR$/Q226.py" />
       </list>
     </option>
   </component>
@@ -136,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Q1480">
+  <component name="RunManager" selected="Python.Q226">
     <configuration name="Leetcode" type="PythonConfigurationType" factoryName="Python">
       <module name="Txing_LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q39" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Q226" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Txing_LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,7 +250,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q39.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q226.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,19 +327,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Leetcode" />
-      <item itemvalue="Python.Q39" />
       <item itemvalue="Python.Q40" />
       <item itemvalue="Python.Q216" />
       <item itemvalue="Python.Q637" />
       <item itemvalue="Python.Q1480" />
+      <item itemvalue="Python.Q226" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q226" />
         <item itemvalue="Python.Q1480" />
         <item itemvalue="Python.Q637" />
         <item itemvalue="Python.Q216" />
         <item itemvalue="Python.Q40" />
-        <item itemvalue="Python.Q39" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +374,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16420911" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -617,10 +618,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q1480.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="112">
+          <caret line="44" column="8" lean-forward="true" selection-end-line="68" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q226.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1600218176117" expanded="true" signature="1122:1340" ph="..." />
           </folding>
         </state>
       </provider>
