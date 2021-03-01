@@ -27,26 +27,20 @@ def listNodeToString(node):
     return "[" + result[:-2] + "]" # 最后一个逗号不输出
 
 
-class NumArray:
-
-    def __init__(self, nums):
-        self.sums = [0]
-        _sums = self.sums
-        for num in nums:
-            _sums.append(_sums[-1] + num)
-
-    def sumRange(self, i: int, j: int) -> int:
-        _sums = self.sums
-        return _sums[j + 1] - _sums[i]
-
-
-
+class Solution:
+    def findRepeatNumber(self, nums) -> int:
+        Hash=dict()
+        for i in range(len(nums)):
+            if nums[i] not in Hash:
+                Hash[nums[i]]=i
+            else:
+                return nums[i]
+        return -1
 
 
 def main():
-    s = [[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
-    
-    solution=NumArray().sumRange(s)
+    s = [35,1,2,3]
+    solution=Solution().findRepeatNumber(s)
     print(solution)
 
 
