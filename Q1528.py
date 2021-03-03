@@ -43,6 +43,7 @@ class Solution:
         return "".join(res)
 
     def restoreString2(self, s: str, indices ) -> str:
+        # 没运行成功
         s=list(s)
         for i in range(len(indices)):
             ch = s[i]
@@ -58,7 +59,7 @@ class Solution:
 def main():
     s = "codeleet"
     indices = [4,5,6,7,0,2,1,3]
-    solution=Solution().restoreString2(s,indices)
+    solution=Solution().restoreString1(s,indices)
     print(solution)
 
 
