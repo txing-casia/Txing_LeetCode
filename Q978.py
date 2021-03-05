@@ -80,6 +80,7 @@ class Solution:
         n = len(arr)
         res = 1
         dp0 = dp1 = 1
+        # 注意要从1开始循环
         for i in range(1,n):
             if arr[i-1] > arr[i]:
                 dp0 = dp1 + 1
