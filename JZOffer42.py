@@ -29,15 +29,34 @@ def listNodeToString(node):
 
 
 class Solution:
-    def maxSubArray(self, nums) -> int:
-        for i in range(1, len(nums)):
-            nums[i] += max(nums[i - 1], 0)
-        return max(nums)
+    def maxProfit(self, prices) -> int:
+        inf = int(1e9)
+        minprice = inf
+        maxprofit = 0
+        for price in prices:
+            maxprofit = max(price - minprice, maxprofit)
+            minprice = min(price, minprice)
+        return maxprofit
+
+    def maxProfit1(self, prices) -> int:
+        n = len(prices)
+        if n == 0: return 0 # 边界条件
+        dp = [0] * n
+        minprice = prices[0] 
+
+        for i in range(1, n):
+            minprice = min(minprice, prices[i])
+            dp[i] = max(dp[i - 1], prices[i] - minprice)
+
+        return dp[-1]
+
+
+
 
 
 def main():
-    nums = [-2,1,-3,4,-1,2,1,-5,4]
-    solution=Solution().maxSubArray(nums)
+    nums = [7,1,5,3,6,4]
+    solution=Solution().maxProfit(nums)
     print(solution)
 
 
