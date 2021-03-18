@@ -32,7 +32,6 @@ class Solution:
     def removeSubfolders(self, folder):
         # 首先对folder排序，然后把第一个文件夹放入res中。但我们可以理解为，最短的文件夹一定不是一个子文件夹，否则还会有一个更短的父文件夹。然后遍历folder，因为已经排序了，所以每次只和res最后一个比较就可以。如果开头部分不相同，说明当前遍历到了一个新的文件夹目录，加入res。
         folder.sort()
-        # 这里看似取巧，但我们可以理解为，最短的文件夹一定不是一个子文件夹，否则还会有一个更短的父文件夹。
         roots = [folder[0]]
         for i in range(1, len(folder)):
             fd = folder[i]
