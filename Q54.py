@@ -79,7 +79,7 @@ class Solution(object):
         while matrix:
             # 移除第一行并返回移除元素
             res += matrix.pop(0)
-            # zip(*Array) 可理解为解压，返回二维矩阵
+            # zip(*Array) 可理解为解压，返回二维矩阵，把每一列打包
             matrix = list(zip(*matrix))[::-1]
         return res
 
