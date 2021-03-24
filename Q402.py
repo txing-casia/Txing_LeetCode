@@ -31,32 +31,18 @@ def listNodeToString(node):
 
 
 class Solution:
-    def removeKdigits(self, num: str, k: int) -> str:
-        numStack = []
-        
-        # 构建单调递增的数字串
-        for digit in num:
-            while k and numStack and numStack[-1] > digit:
-                numStack.pop()
-                k -= 1
-        
-            numStack.append(digit)
-        
-        # 如果 K > 0，删除末尾的 K 个字符
-        finalStack = numStack[:-k] if k else numStack
-        
-        # 抹去前导零
-        # return "".join(finalStack)
-        return "".join(finalStack).lstrip('0') or "0"
-
-
+    def reversePrint(self, head: ListNode):
+        stack = []
+        while head:
+            stack.append(head.val)
+            head = head.next
+        return stack[::-1]
 
 
 
 def main():
-    num = "140032219000"
-    k = 3
-    solution=Solution().removeKdigits(num,k)
+    head = stringToListNode([1,3,2])
+    solution=Solution().reversePrint(head)
     print(solution)
 
 
