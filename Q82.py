@@ -37,6 +37,7 @@ class Solution:
         dummy = ListNode([])
         dummy.next = head
         cur = dummy
+
         while cur.next and cur.next.next:
             if cur.next.val == cur.next.next.val:
                 x = cur.next.val
@@ -44,9 +45,20 @@ class Solution:
                     cur.next = cur.next.next
             else:
                 cur = cur.next
-            print(listNodeToString(dummy.next))
         return dummy.next
 
+
+    def deleteDuplicates1(self, head):
+        if not head or not head.next:
+            return head
+        if head.val != head.next.val:
+            head.next = self.deleteDuplicates(head.next)
+        else:
+            move = head.next
+            while move and head.val == move.val:
+                move = move.next
+            return self.deleteDuplicates(move)
+        return head
 
 
 def main():
