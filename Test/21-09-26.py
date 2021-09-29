@@ -18,8 +18,23 @@ def create(L):
     return newNode
 
 List = [2,3,1,4,5]
-N = len(List)
-while 
+
+def sort_list(L):
+    M = len(L)
+    for i in range(M):
+        for j in range(i,M):
+            if L[i]>L[j]:
+                L[i],L[j] = L[j],L[i]
+                
+
+
+
+
+# N = len(List)
+# L = List 
+# while :
+#     L = 
+#     create(L)
 
 root = TreeNode(List(N // 2), List(N//2-1), List(N//2+1))
 
