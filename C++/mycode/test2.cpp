@@ -2,7 +2,7 @@
 #include <string.h>
 using namespace std;
 
-int maximalSquare(matrix){
+int maximalSquare(char matrix){
     int m = matrix.size(),n = matrix[0].size();
     int f[m][n];
     int ans = 0;
